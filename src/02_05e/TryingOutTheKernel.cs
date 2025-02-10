@@ -21,7 +21,8 @@ public class TryingOutTheKernel
         // 2 whats the file limit? is it 25mb as stated?
         // 3 why m4a is not supported in dotnet semantic kernel
         // 4 价格？ 在whisper之前的传统audio to text基本上是50分钟需要几美元（1-5大概？？？），很久之前测过但是忘了
-        // 5 速度，决定了是否能够做call center robot, 本地whisperx 或者fast whisper更快
+        // 5 速度，决定了是否能够做call center robot, 本地whisperx 或者fast whisper更快,14分钟半基本上是20-30秒，
+        // 这个应该是原版whisper
         // 结合RAG ， plugin等等
         // 通过测试，1 支持其他语言，所以微软learning 官网又在搞笑了？？？
         // 2 25mb是限制，超过只能拆分或者用azure ai speech service
